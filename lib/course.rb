@@ -3,17 +3,16 @@ class Course
 
   @@all = []
 
-  def initialize 
-    @@all << self 
-  end 
+  def initialize
+    @@all << self
+  end
 
   def self.all
-    @@all 
-  end 
+    @@all
+  end
 
-  def self.reset_all 
+  def self.reset_all
     @@all.clear
-  end 
+  end
 
-end 
-
+end
