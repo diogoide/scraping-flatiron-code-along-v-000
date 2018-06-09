@@ -23,10 +23,10 @@ class Scraper
         course.description = post.css("p").text
       end
     end
-Scraper.new.print_courses
+
 end
 
-
+Scraper.new.print_courses
 
   #   def print_courses
   #   self.make_courses
